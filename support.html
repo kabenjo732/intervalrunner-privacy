@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support – IntervalRunner</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #ffffff;
+    --fg: #1c1c1e;
+    --muted: #6e6e73;
+    --accent: #0a7d3d;
+    --border: #e5e5ea;
+    --card: #f7f7f8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0e0e10;
+      --fg: #f2f2f7;
+      --muted: #9a9aa0;
+      --accent: #34c876;
+      --border: #2c2c2e;
+      --card: #1c1c1e;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+  .wrap {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 48px 24px 96px;
+  }
+  .badge {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--accent);
+    background: color-mix(in srgb, var(--accent) 14%, transparent);
+    padding: 4px 10px;
+    border-radius: 999px;
+    margin-bottom: 12px;
+  }
+  h1 { font-size: 28px; margin: 0 0 24px; }
+  h2 { font-size: 17px; margin: 32px 0 8px; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+    margin: 16px 0;
+  }
+  a { color: var(--accent); }
+  .langswitch { margin-top: 20px; font-size: 14px; }
+  .langswitch a { text-decoration: none; font-weight: 600; }
+  .langswitch a:hover { text-decoration: underline; }
+  #en { margin-top: 72px; padding-top: 40px; border-top: 4px solid var(--border); }
+  footer {
+    margin-top: 56px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 13px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<section id="de">
+  <span class="badge">IntervalRunner</span>
+  <h1>Support</h1>
+  <p>Fragen, Probleme oder Feedback zu IntervalRunner? Melde dich einfach direkt bei mir.</p>
+
+  <div class="card">
+    <strong>E-Mail:</strong> <a href="mailto:kabenjo@googlemail.com">kabenjo@googlemail.com</a>
+  </div>
+
+  <h2>Bekannte Voraussetzungen</h2>
+  <p>
+    IntervalRunner läuft eigenständig auf der Apple Watch (kein iPhone nötig). Für
+    Herzfrequenz-Anzeige muss die Uhr getragen werden; für Distanz/Tempo wird GPS
+    benötigt (Apple Watch Series 3 oder neuer bzw. SE, oder ein gekoppeltes iPhone
+    in der Nähe).
+  </p>
+
+  <div class="langswitch"><a href="#en">Read this in English →</a></div>
+</section>
+
+<section id="en">
+  <h1>Support</h1>
+  <p>Questions, issues, or feedback about IntervalRunner? Just reach out directly.</p>
+
+  <div class="card">
+    <strong>Email:</strong> <a href="mailto:kabenjo@googlemail.com">kabenjo@googlemail.com</a>
+  </div>
+
+  <h2>Requirements</h2>
+  <p>
+    IntervalRunner runs standalone on Apple Watch (no iPhone required). Heart rate
+    display requires the watch to be worn; distance/pace require GPS (Apple Watch
+    Series 3 or later, or SE, or a nearby paired iPhone).
+  </p>
+
+  <div class="langswitch"><a href="#de">↑ Zurück zur deutschen Version</a></div>
+</section>
+
+<footer>
+  IntervalRunner · <a href="index.html">Datenschutzerklärung / Privacy Policy</a>
+</footer>
+
+</div>
+</body>
+</html>
